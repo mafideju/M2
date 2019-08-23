@@ -62,7 +62,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "jest --coverage"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -133,6 +133,7 @@
     ]
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "chalk": "^2.4.2",
     "jest-cli": "^24.9.0"
   }
