@@ -6,8 +6,4 @@
 
 // Sum(1, 1);
 
-module.exports = () => {
-    if (true) {
-        return
-    }
-}
+module.export = () => {}

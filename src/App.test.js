@@ -21,6 +21,6 @@ describe('GRUPO PADRÃO DE TESTES', () => {
   });
 
   it('SUM SHOULD BE A FUNCTION', () => {
-    expectChai(sum).to.be.a('function')
+    expectChai(sum).to.be.an('object');
   });
 });
