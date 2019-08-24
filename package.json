@@ -62,7 +62,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "test:watch": "yarn test -- --watch"
   },
   "eslintConfig": {
     "extends": "react-app"

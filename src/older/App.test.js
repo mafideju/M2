@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-const expectChai = require('chai').expect;
-const sum = require('./Sum');
+// const expectChai = require('chai').expect;
+// const sum = require('./Sum');
+import { expect as expectChai } from 'chai';
+import sum from './Sum';
 
 
 describe('GRUPO PADRÃO DE TESTES', () => {
@@ -21,6 +23,6 @@ describe('GRUPO PADRÃO DE TESTES', () => {
   });
 
   it('SUM SHOULD BE A FUNCTION', () => {
-    expectChai(sum).to.be.an('object');
+    expectChai(sum).to.be.a('function');
   });
 });

@@ -6,4 +6,4 @@
 
 // Sum(1, 1);
 
-module.export = () => {}
+export default () => { }
