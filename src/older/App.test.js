@@ -4,7 +4,7 @@ import App from './App';
 // const expectChai = require('chai').expect;
 // const sum = require('./Sum');
 import { expect as expectChai } from 'chai';
-import sum from './Sum';
+import sum from './_other/Sum';
 
 
 describe('GRUPO PADRÃO DE TESTES', () => {

@@ -1,14 +1,12 @@
 import React from 'react';
+import { Map } from './Map/Map';
+import { Filter } from './Filter/Filter';
 
 function App() {
   return (
     <div>
-      <header>
-        <p>
-          Edit src/App.js and save to reload.
-        </p>
-      </header>
-          <h2>Never Learn React</h2>
+      <Map />
+      <Filter />
     </div>
   );
 }
