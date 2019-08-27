@@ -5,10 +5,10 @@ export const Map = (arr, func) => {
   for (let i = 0; i < arr.length; i++) {
     newArr.push(func(arr[i], i, arr))
   }
-  return newArr
+  return newArr;
 }
 
-export const RecursiveMap = (arr = [], func = (item) => item) => {
+export const RecursiveMap = (arr, func) => {
   let count = 0;
   const mapInternal = (arrayInternal) => {
     if (arrayInternal.length === 0) {
