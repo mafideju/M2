@@ -7,6 +7,5 @@ export const Reverse = (arr) => {
 }
 
 export const ReverseRecursive = (arr) => {
-  if (arr.length === 0) return [];
-  return [arr[arr.length - 1]].concat(Reverse(arr.slice(0, -1)));
+  return arr.length === 0 ? [] : [arr[arr.length - 1]].concat(Reverse(arr.slice(0, -1)));
 }
